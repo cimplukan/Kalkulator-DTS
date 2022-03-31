@@ -1,8 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(213, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .calculator {
     text-align: center;
-    margin: 0 auto;
-    /* padding-top: 200px; */
     width: 400px;
+}
+
+.calculator p {
+    color: rgb(107, 107, 107);
+    font-size: 1.25rem;
+    font-family: roboto;
 }
 
 .calculator-screen {
@@ -14,7 +32,7 @@
     font-size: 36px;
     border: none;
     padding: 0 20px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .calculator-keys {
